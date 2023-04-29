@@ -1,0 +1,131 @@
+.Snavi-ui {
+  position: absolute;
+  text-align: left;
+  padding: 5px;
+  margin: left 25px;
+  display: flow-root;
+  top: 20%;
+  background-color: orangered;
+}
+
+.Snavi-ui li {
+  display: list-item;
+  padding: 10px;
+}
+
+.Snavi-ui li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.mfooter {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: orangered;
+}
+.SLnavi-ui {
+  text-align: center;
+  width: 40%;
+  margin-left: 26%;
+  margin-bottom: 0%;
+  padding: 8px;
+  background-color: orangered;
+}
+.SLnavi-ui a {
+  width: 50%;
+  position: relative;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.Register {
+  text-align: center;
+}
+.I-Box {
+  display: block;
+  position: relative;
+  margin: 25px;
+  margin-left: 30%;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid orangered;
+}
+.A-Btn {
+  padding: 8px;
+  margin-right: 10%;
+  margin-top: 0%;
+  width: 30%;
+  color: #fff;
+  background-color: orangered;
+  cursor: pointer;
+}
+.A-Btn2 {
+  padding: 8px;
+  margin-right: 27%;
+  margin-top: 0%;
+  width: 25%;
+  color: #fff;
+  background-color: orangered;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
+.home-ui {
+  position: absolute;
+  text-align: center;
+  padding: 0px;
+  margin: left 25px;
+  display: flow-root;
+  top: 20%;
+  background-color: orangered;
+  display: grid;
+  margin-left: 40%;
+  height: 70px;
+  width: 254px;
+}
+.shop-ui {
+  display: inline-grid;
+  position: relative;
+  text-align: left;
+  padding: 0px;
+  margin: 0;
+  margin-block: revert;
+  margin-left: 43%;
+  margin-right: 35%;
+  margin-bottom: 30%;
+  margin-top: 10%;
+  color: orangered;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
